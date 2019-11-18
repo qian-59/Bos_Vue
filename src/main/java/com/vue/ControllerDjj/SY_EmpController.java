@@ -18,7 +18,7 @@ public class SY_EmpController {
     public String test(){
         List<SY_Emp> emplist = sy_empService.emplist();
         for (SY_Emp syEmp : emplist) {
-            System.out.println(syEmp);
+            System.out.println(syEmp+"1233");
         }
         return null;
     }
